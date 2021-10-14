@@ -1,0 +1,23 @@
+select *
+from invoice
+where invoiceDate between '2013-01-01'and'2013-12-31'
+
+<!-- 2-misol -->
+select firstname, lastname, country
+from customer
+where
+country ='Brazil'
+or
+country ='India'
+or
+country ='Canada'
+or
+country='Sweden'
+
+<!-- 4 misol -->
+SELECT Customer.FirstName , Customer.LastName , Invoice.Total 
+FROM Invoice 
+Join Customer 
+ON   Customer.CustomerId = Invoice.CustomerId
+ORDER BY Invoice.Total DESC
+LIMIT 10

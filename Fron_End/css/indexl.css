@@ -1,0 +1,25 @@
+img {
+    width: 300px;
+}
+#interesting-fact{
+    font-style: italic;
+}
+#container{
+    border-style:solid ;
+  	padding: 5px;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+.animal-info{
+   font-style: italic;
+   border-style:solid ;
+   padding: 5px; 
+   
+}
+span{
+    font-weight: bold;
+}
